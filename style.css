@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.header img {
+    height: 64px;
+}
+
+.footer {
+    flex-grow: 1;
+    min-height: 50px;
+}
+
+
+/* The article fills all the space between header & footer */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main img {
+    height: 80px;
+    flex-grow: 1;
+    position: absolute;
+    top: -1px;
+}
+
+.main {
+    text-align: center;
+}
